@@ -53,5 +53,5 @@ and use another escan session terminal to search in database by writing ( escan 
 * From Version 2.2
 - Eternal Romance Vulnerability check original source : https://github.com/warecrer/MS17-010
 
-## Credit to peterpt
+## Credit to peterpt (~_^)
 
