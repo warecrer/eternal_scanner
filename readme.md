@@ -1,4 +1,4 @@
-# Project Moved to : https://gitlab.com/peterpt/Eternal_Scanner
+
 
 ## ETERNAL SCANNER 2.3
 
@@ -29,15 +29,18 @@ Eternal scanner is an network scanner for Eternal Blue exploit CVE-2017-0144 & E
 - python-pyasn1-modules (Dependency for Eternal Romance check)
 
 # How to Install
-- git clone https://github.com/peterpt/eternal_scanner.git
-- cd eternal_scanner && ./escan
-- OR ./escan -h (to change scanner speed)
+- git clone https://github.com/warecrer/eternal_scanner.git
 
 # Install Requirements
 - apt-get install masscan metasploit-framework wget python-pip python-crypto python-impacket python-pyasn1-modules netcat
 
 For python modules as alernative it can be used pip to install the libraries :
 - pip install crypto && pip install impacket && pip install pyasn1-modules
+
+# How to Run 
+- cd eternal_scanner
+- ./escan
+- OR ./escan -h (to show menu)
 
 # Notes
 - Starting from version 2.0 , eternal scanner will auto install itself on your system on 1st run .
@@ -48,5 +51,7 @@ and use another escan session terminal to search in database by writing ( escan 
   however (escan -er) will not work without them .
 
 * From Version 2.2
-- Eternal Romance Vulnerability check original source : https://github.com/worawit/MS17-010
+- Eternal Romance Vulnerability check original source : https://github.com/warecrer/MS17-010
+
+## Credit to peterpt
 
